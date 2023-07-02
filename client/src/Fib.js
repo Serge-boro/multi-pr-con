@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import axios from 'axios'
+import axios from '../node_modules/axios/dist/axios'
 const Fib = () => {
   const [isState, setIsState] = useState({
     values: {},
